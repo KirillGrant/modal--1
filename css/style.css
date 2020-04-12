@@ -17,12 +17,11 @@
     border: 0;
     cursor: pointer;
     background: red;
-    background-image: url("../img/cross.png");
-    background-size: 20px 20px;
-    background-position: 1px 1px;
-    background-repeat: no-repeat;
 }
-.modal__content--close:hover{
+.modal__content--close img{
+    margin-left: -4.2px;
+}
+.modal__content--close:hover img {
     transform: rotate(45deg);
 }
 
